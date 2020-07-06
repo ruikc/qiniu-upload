@@ -1,0 +1,21 @@
+{
+    "name": "myself/yii2-qiniu-upload",
+    "description": "qiniu upload",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","qiniu","ruikc"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ruikc",
+            "email": "lhyfe1987@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ruikc\\qiniu\\": ""
+        }
+    }
+}
